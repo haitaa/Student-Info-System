@@ -1,5 +1,6 @@
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
+
 public class Main {
     public static void main(String[] args) {
         Teacher ahmet = new Teacher("Ahmet Hoca", "5364852763", "MAT");
@@ -16,7 +17,7 @@ public class Main {
         tarih.addTeacher(bayram);
 
         Student mustafa = new Student("Mustafa", "1307", "2", matematik, fizik, tarih);
-        mustafa.addBulkExamNote(100, 78, 50);
+        mustafa.addBulkExamNote(100, 50, 70, 40, 86, 94);
         mustafa.isPass();
     }
 }
